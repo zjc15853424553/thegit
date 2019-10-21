@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2333169",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "2453093",
+      "name": "五角星",
+      "font_class": "xingzhuang60kaobei2",
+      "unicode": "e50d",
+      "unicode_decimal": 58637
+    },
+    {
+      "icon_id": "3059802",
+      "name": "左箭头",
+      "font_class": "xia",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "3685060",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "e703",
+      "unicode_decimal": 59139
+    },
+    {
+      "icon_id": "5757274",
+      "name": "菜单",
+      "font_class": "menu",
+      "unicode": "e507",
+      "unicode_decimal": 58631
+    },
+    {
+      "icon_id": "6353166",
+      "name": "菜单",
+      "font_class": "menu-two",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "8323471",
+      "name": "点赞",
+      "font_class": "good_active-copy",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    }
+  ]
+}

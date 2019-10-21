@@ -1,0 +1,581 @@
+body{margin:0;font-size:12px;
+  /* line-height:1.5; */line-height:1;
+  -webkit-text-size-adjust: 100%!important; /*禁止IOS调整字体大小*/
+}
+h1,h2,h3,h4,h5,h6{margin:0;font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;margin:0;padding:0;}
+p,dl,dd{margin:0;}
+img{vertical-align: top;border:none;}
+a{text-decoration: none;color:#333;}
+strong,b{font-weight: normal;}
+i,em{font-style:normal;}
+table{border-spacing: 0; border-collapse: collapse;}
+th{font-weight: normal;text-align: left;vertical-align: top;}
+td{text-align: left;vertical-align: top;}
+input{margin:0;padding:0;border:none; font-family:inherit;}
+input,textarea{outline:none;}
+textarea{
+  resize:none;
+  overflow:auto;
+}
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+a,button,input,select,textarea {
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+}
+button,input,optgroup,select,textarea {
+  -webkit-appearance:none;
+  /*去掉webkit默认的表单样式*/
+}
+.App-link {
+  color: #09d3ac;
+}
+.App{
+  width: 10.8rem;
+}
+.navbox{
+    padding-top: 1.68rem;
+}
+/*固定导航*/
+.nav{
+  width: 10.8rem;
+  height: 1.68rem;
+  background:#00a2ed;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.nav .navLeft{
+  width: 4rem;
+  height: 1.68rem;
+  float: left;
+}
+.nav .navLeft ul{
+  display: flex;
+}
+.nav .navLeft ul li{
+  flex: 1;
+  height: 0.56rem;
+    text-align: center;
+    padding: 0.56rem 0;
+}
+.nav .navLeft ul li:nth-child(1) a{
+    width: 100%;
+    height: 0.56rem;
+    display: block;
+}
+.nav .navLeft ul li:nth-child(1) a img{
+    width: 0.56rem;
+    height: 0.56rem;
+}
+.nav .navLeft ul li:nth-child(2) a{
+    width: 100%;
+    height: 0.56rem;
+    display: block;
+    text-align: center;
+}
+.nav .navLeft ul li:nth-child(2) a img{
+    width: 1.04rem;
+    height: 0.56rem;
+}
+.nav .navRight{
+  width: 3rem;
+  height: 1.68rem;
+  float: right;
+}
+.nav .navRight ul{
+  display: flex;
+}
+.nav .navRight ul li{
+  flex: 1;
+  height: 0.6rem;
+    padding: 0.54rem 0 ;
+    text-align: center;
+}
+.nav .navRight ul li:nth-child(1) a{
+    width: 100%;
+    height: 0.59rem;
+    display: block;
+}
+.nav .navRight ul li:nth-child(1) a img{
+    width: 0.53rem;
+    height: 0.59rem;
+}
+.nav .navRight ul li:nth-child(2) a{
+    width: 100%;
+    height: 0.59rem;
+    display: block;
+}
+.nav .navRight ul li:nth-child(2) a img{
+    width: 0.23rem;
+    height: 0.59rem;
+}
+/*中间轮播图*/
+.theA{
+    position: relative;
+}
+.po{
+position: absolute;
+    font: 0.7rem '微软雅黑';
+    color: #fff;
+    top:4.5rem;
+}
+/*主要信息*/
+.main{
+    padding: 0 0.24rem;
+    overflow: hidden;
+    background: #f3f3f3;
+    /*margin-top: -12.3rem;*/
+}
+.main h2{
+    height: 1.54rem;
+    font: 0.4rem/1.54rem '微软雅黑';
+    color:#565656
+}
+.main ul{
+    padding: 0;
+}
+.main ul li{
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    margin: 0.2rem 0;
+    padding: 0.36rem 0 0.4rem 0;
+}
+.main ul li p{
+    display: inline-block;
+    width: 6.45rem;
+    padding: 0 0.4rem 0 0.5rem;
+    font: 0.5rem/0.65rem '微软雅黑';
+    color: #010101;
+    float: left;
+}
+.main ul li img{
+    display: inline-block;
+    width: 2.46rem;
+    height:2.18rem;
+ float: right;
+}
+
+/*详情页CSS*/
+.myNav{
+    width: 100%;
+    height: 1.68rem;
+    background: #00a2ed;
+}
+.myNav .theLeft{
+    width: 1.6rem;
+    /*height: 1.68rem;*/
+    /*background: pink;*/
+    margin: 0 auto;
+    float: left;
+    padding: 0.44rem 0;
+}
+.myNav .ul{
+    width: 7.28rem;
+    height: 1.68rem;
+    float: right;
+    display: flex;
+}
+.myNav .ul li{
+    flex: 1;
+    padding: 0.5rem 0;
+    text-align: center;
+
+}
+.myNav .ul li a i{
+    color: #fff;
+}
+.myNav .ul li:nth-child(2) a i:hover{
+    color: yellow;
+} 
+.myNav .theLeft a{
+    width: 0.75rem;
+    height: 0.66rem;
+    display: block;
+}
+.myNav .theLeft a i{
+    width: 0.75rem;
+    height: 0.66rem;
+    color: #fff;
+    margin-left: 0.6rem;
+    /*background: red;*/
+}
+.myPic{
+    width: 100%;
+    height:6.06rem;
+    position: relative;
+}
+.myPic img{
+    width: 100%;
+    height:6.06rem;
+}
+.myPic p{
+    padding: 0 0.6rem;
+    position: absolute;
+    bottom: 0.5rem;
+    font: 0.6rem/0.8rem '微软雅黑';
+    color: #fff;
+}
+.myTitle{
+    padding: 0.68rem 0.6rem;
+}
+.myTitle .title{
+    width: 100%;
+    height: 0.64rem;
+    background: yellow;
+    margin-bottom: 0.6rem;
+}
+.myTitle .title img{
+    display: inline-block;
+    width: 0.64rem;
+    height: 0.64rem;
+    background: red;
+    vertical-align: center;
+}
+.myTitle .title h1{
+    display: inline-block;
+    padding: 0;
+    margin: 0 0 0 0.15rem;
+}
+.myTitle .title span{
+    display: inline-block;
+    width: 3.5rem;
+    white-space : nowrap;
+    overflow : hidden;
+    text-overflow: ellipsis;
+}
+.myTitle p{
+    font: 0.5rem/0.8rem '微软雅黑';
+    color: #424242;
+}
+.myTitle h2{
+    padding: 0.5rem 0;
+    font:bold 0.5rem/0.8rem '微软雅黑';
+}
+.myTitle .thep span{
+    font: bold 0.5rem/0.8rem '微软雅黑';
+}
+.myLeft{
+    width: 9.1rem;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    display: none;
+}
+.indexNav{
+    width: 100%;
+    height: 3.33rem;
+    background: #00a2ed;
+}
+.indexNav .navTop{
+    height: 1.15rem;
+    padding: 0.3rem 0 0.3rem 0.45rem;
+}
+.indexNav .navTop img{
+    width: 1rem;
+    height: 1rem;
+    background: red;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.indexNav .navTop span{
+    margin-left: 0.3rem;
+}
+.indexNav .navBot{
+    height: 1.58rem;
+    width: 100%;
+}
+.indexNav .navBot ul{
+    display: flex;
+    height: 0.96rem;
+    width: 100%;
+    padding: 0.31rem 0;
+}
+.indexNav .navBot ul li{
+    flex: 1;
+    text-align: center;
+}
+.indexNav .navBot ul li a img{
+    width: 3.45rem;
+    height: 0.96rem;
+}
+.myLeft h1{
+    margin: 0;
+    background: #f0f0f0;
+    height: 0.6rem;
+    padding: 0.45rem 0 0.45rem 0.65rem;
+    font: 0.44rem/0.6rem '微软雅黑';
+}
+.myLeft h1 a img{
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.51rem;
+    vertical-align: top;
+    margin-right: 0.5rem;
+}
+
+/*屏幕opacity*/
+.cli{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    display: none;
+}
+/*详情页点击弹框*/
+.Detafiex{
+    width: 9.3rem;
+    height: 10.84rem;
+    position: fixed;
+    background: #fff;
+    display: none;
+    top: 50%;
+    left: 50%;
+    margin: -5.42rem 0 0 -4.65rem;
+}
+.Detafiex h1{
+    padding-left: 0.75rem;
+}
+.Detafiex ul{
+    width: 100%;
+    height:2.27rem;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+.Detafiex ul li{
+    flex: 1;
+    text-align: center;
+}
+.Detafiex ul li a img{
+    width: 1.78rem;
+    height: 2.27rem;
+}
+/*收藏页面*/
+.collectBox{
+    background: #f4f4f4;
+}
+.collect{
+    height: 1.68rem;
+    width: 100%;
+    background: #01a3ee;
+}
+.collect ul{
+    width: 4.5rem;
+    height:1.68rem;
+    display: flex;
+    padding: 0;
+}
+.collect ul li{
+    flex: 1;
+    padding: 0.56rem 0;
+    text-align: center;
+}
+.collect ul li:nth-child(1) a img{
+    width: 0.56rem;
+    height: 0.56rem;
+}
+.collect ul li:nth-child(2) a img{
+    width: 2.05rem;
+    height: 0.56rem;
+}
+.collectMain{
+    padding: 0 0.23rem;
+}
+.collectMain ul{
+    padding: 0;
+}
+.collectMain ul li{
+    background: #fff;
+    padding: 0.4rem 0.45rem;
+    margin: 0.2rem 0;
+}
+.collectMain ul li p{
+    display: inline-block;
+    width:6.8rem;
+    font: 0.5rem/0.7rem '微软雅黑';
+    color: #696969;
+}
+.collectMain ul li img{
+    display: inline-block;
+    width: 2.45rem;
+    height:2.17rem;
+}
+
+/*评论页面*/
+.CommentBox{
+   background: #fff;
+}
+.Comment{
+    padding: 0.5rem 0.4rem 0 0.6rem;
+    height: 1.18rem;
+    background: #00a2ed;
+}
+.Comment span{
+    color: #fff;
+}
+.Comment span:nth-child(1) {
+    width: 0.6rem;
+    height: 0.6rem;
+    color: #fff;
+    margin-right: 1.05rem;
+}
+.Comment span:nth-child(3) img{
+    width: 0.66rem;
+    height: 0.66rem;
+    vertical-align: top;
+    float: right;
+}
+.num{
+    height: 1.42rem;
+    padding-left: 0.5rem;
+    border: 0.03rem solid #dedede;
+}
+.num h1{
+    font: 0.3rem/1.42rem '微软雅黑';
+}
+.num h1 img{
+    height:0.29rem;
+    width: 0.34rem;
+    float: right;
+    margin-top: 0.45rem;
+    margin-right: 0.5rem;
+}
+.comMain ul{
+    padding: 0;
+}
+.comMain ul li{
+    padding:0.45rem 0.47rem;
+    border: 0.03rem solid #dedede;
+}
+.comMain ul li .myPic{
+    height: 1.1rem;
+}
+.comMain ul li .myPic img{
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 0.2rem;
+}
+.comMain ul li .myPic span:nth-child(1){
+    font: bold 0.35rem '微软雅黑';
+}
+.comMain ul li .myPic div{
+    float: right;
+    height: 0.4rem;
+    width: 0.7rem;
+}
+.comMain ul li .myPic div i{
+    display: inline-block;
+    height: 0.4rem;
+    width:0.32rem;
+    color: #b8b8b8;
+}
+.comMain ul li p{
+    padding-left: 1.25rem;
+    font: 0.43rem/0.68rem '微软雅黑';
+}
+.comMain ul li .time{
+    margin-top: 0.65rem;
+    padding-left: 1.25rem;
+    height: 0.3rem;
+    color: #b2b2b2;
+}
+.comments{
+    height: 1.4rem;
+    border: 0.03rem solid #dedede;
+    padding-left: 0.5rem;
+
+}
+.comments h1{
+    font: 0.38rem/1.4rem '微软雅黑';
+}
+.comments h1 img{
+    height:0.29rem;
+    width: 0.34rem;
+    float: right;
+    margin-top: 0.45rem;
+    margin-right: 0.5rem;
+}
+
+
+
+.mycomments ul{
+    padding: 0;
+}
+.mycomments ul li{
+    padding:0.45rem 0.47rem;
+    border: 0.03rem solid #dedede;
+}
+.mycomments ul li .myPic{
+    height: 1.1rem;
+}
+.mycomments ul li .myPic img{
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 0.2rem;
+}
+.mycomments ul li .myPic span:nth-child(1){
+    font: bold 0.35rem '微软雅黑';
+}
+.mycomments ul li .myPic div{
+    float: right;
+    height: 0.4rem;
+    width: 0.7rem;
+}
+.mycomments ul li .myPic div i{
+    display: inline-block;
+    height: 0.4rem;
+    width:0.32rem;
+    color: #b8b8b8;
+}
+.mycomments ul li p{
+    padding-left: 1.25rem;
+    font: 0.43rem/0.68rem '微软雅黑';
+}
+.mycomments ul li .time{
+    margin-top: 0.65rem;
+    padding-left: 1.25rem;
+    height: 0.3rem;
+    color: #b2b2b2;
+}
+.empy{
+    height: 8rem;
+    /*background: yellow;*/
+    padding-top: 6rem;
+}
+.empy .kong{
+    width: 3.35rem;
+    height: 4.5rem;
+    /*background: red;*/
+    margin-left: 3.5rem;
+    text-align: center;
+}
+.empy .kong img{
+    width: 2.79rem;
+    height: 3.38rem;
+}
+.empy .kong p{
+    font:0.38rem '微软雅黑' ;
+    color: #e2e2e2;
+}
+
+
+
+
